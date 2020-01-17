@@ -8,11 +8,15 @@
       "description": "The course _id",
       "type": "string"
     },
+    "location": {
+      "description": "Location of the course preview",
+      "type": "string"
+    },
     "expiresAt": {
       "description": "When the preview should be purged from the server",
       "type": "string",
       "format": "date-time"
     }
   },
-  "required": ["courseId", "expiresAt"]
+  "required": ["courseId", "location", "expiresAt"]
 }
