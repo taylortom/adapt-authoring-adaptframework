@@ -8,7 +8,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
   },
   "dependencies": {
-    "adapt_framework": "github:taylortom/adapt_framework"
+    "adapt_framework": "github:taylortom/adapt_framework",
     "adapt-cli": "github:adaptlearning/adapt-cli"
   }
 }
