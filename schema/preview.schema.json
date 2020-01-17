@@ -10,7 +10,7 @@
     },
     "expiresAt": {
       "description": "When the preview should be purged from the server",
-      "type": "string"
+      "type": "string",
       "format": "date-time"
     }
   },
