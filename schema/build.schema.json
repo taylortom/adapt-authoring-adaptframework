@@ -1,9 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "preview",
-  "description": "An Adapt course preview instance",
+  "title": "build",
+  "description": "An Adapt course build instance",
   "type": "object",
   "properties": {
+    "action": {
+      "description": "The course _id",
+      "type": "string"
+    },
     "courseId": {
       "description": "The course _id",
       "type": "string"
