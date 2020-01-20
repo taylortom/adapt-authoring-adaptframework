@@ -1,8 +1,8 @@
 {
   "name": "adapt-authoring-adaptFramework",
   "version": "0.0.1",
-  "description": "",
-  "homepage": "",
+  "description": "Adapt framework integration for the Adapt authoring tool",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-adaptFramework",
   "main": "index.js",
   "peerDependencies": {
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
