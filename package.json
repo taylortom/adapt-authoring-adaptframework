@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "adapt-authoring-content": "github:adapt-security/adapt-authoring-content",
+    "adapt-authoring-contentplugin": "github:adapt-security/adapt-authoring-contentplugin",
     "adapt-cli": "github:adaptlearning/adapt-cli",
     "adapt_framework": "github:taylortom/adapt_framework",
     "zipper": "github:taylortom/zipper"
