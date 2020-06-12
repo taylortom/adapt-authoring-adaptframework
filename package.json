@@ -13,6 +13,7 @@
     "adapt-authoring-contentplugin": "github:adapt-security/adapt-authoring-contentplugin",
     "adapt-cli": "github:adaptlearning/adapt-cli",
     "adapt_framework": "github:taylortom/adapt_framework",
+    "fs-extra": "9.0.1",
     "moment": "2.26.0",
     "zipper": "github:taylortom/zipper"
   }
