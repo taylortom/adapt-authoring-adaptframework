@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "buildLifespan": {
+      "description": "How long a build should remain valid for. Expects an amount followed by a space and then the unit (e.g. 5 hours)",
+      "type": "string",
+      "default": "7 days"
+    }
+  }
+}
