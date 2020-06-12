@@ -5,6 +5,7 @@
   "homepage": "https://github.com/adapt-security/adapt-authoring-adaptFramework",
   "main": "index.js",
   "peerDependencies": {
+    "adapt-authoring-authored": "github:adapt-security/adapt-authoring-authored",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
   },
   "dependencies": {
