@@ -2,7 +2,9 @@
   "name": "adapt-authoring-adaptFramework",
   "version": "0.0.1",
   "description": "Adapt framework integration for the Adapt authoring tool",
-  "homepage": "https://github.com/adapt-security/adapt-authoring-adaptFramework",
+  "homepage": "https://github.com/adaptlearning/adapt-authoring-adaptFramework",
+  "license": "GPL-3.0",
+  "repository": "github:adaptlearning/adapt-authoring-adaptFramework",
   "main": "index.js",
   "peerDependencies": {
     "adapt-authoring-authored": "github:adapt-security/adapt-authoring-authored",
