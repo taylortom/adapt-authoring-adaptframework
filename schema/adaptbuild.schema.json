@@ -18,7 +18,8 @@
     "expiresAt": {
       "description": "When the preview should be purged from the server",
       "type": "string",
-      "format": "date-time"
+      "format": "date-time",
+      "isDate": true
     }
   },
   "required": ["courseId", "location", "expiresAt"]
