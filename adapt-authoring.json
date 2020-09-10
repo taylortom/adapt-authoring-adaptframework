@@ -1,6 +1,5 @@
 {
   "documentation": {
     "enable": true
-  },
-  "loadTimeoutMS": 30000
+  }
 }
