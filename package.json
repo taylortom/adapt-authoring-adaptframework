@@ -13,7 +13,7 @@
   "dependencies": {
     "adapt-authoring-content": "github:adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "github:adapt-security/adapt-authoring-contentplugin",
-    "adapt-cli": "github:adaptlearning/adapt-cli",
+    "adapt-cli": "github:adaptlearning/adapt-cli#develop",
     "adapt_framework": "github:taylortom/adapt_framework",
     "fs-extra": "9.0.1",
     "lodash": "4.17.19",
