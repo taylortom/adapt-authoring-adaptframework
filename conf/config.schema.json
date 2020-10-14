@@ -6,6 +6,10 @@
       "description": "How long a build should remain valid for. Expects an amount followed by a space and then the unit (e.g. 5 hours)",
       "type": "string",
       "default": "7 days"
+    },
+    "frameworkDir": {
+      "description": "Path to the adapt_framework source folder",
+      "type": "string"
     }
   }
 }
