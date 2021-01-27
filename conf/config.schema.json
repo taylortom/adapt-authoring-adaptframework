@@ -11,5 +11,6 @@
       "description": "Path to the adapt_framework source folder",
       "type": "string"
     }
-  }
+  },
+  "required": ["frameworkDir"]
 }
