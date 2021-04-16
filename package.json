@@ -13,7 +13,7 @@
   "dependencies": {
     "adapt-authoring-content": "adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "adapt-security/adapt-authoring-contentplugin",
-    "adapt_framework": "taylortom/adapt_framework",
+    "adapt_framework": "adaptlearning/adapt_framework#json-schema",
     "fs-extra": "9.0.1",
     "lodash": "4.17.19",
     "moment": "2.26.0",
