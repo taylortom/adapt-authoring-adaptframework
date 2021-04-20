@@ -8,9 +8,14 @@
       "default": "7 days"
     },
     "frameworkDir": {
+      "type": "string",
       "description": "Path to the adapt_framework source folder",
-      "type": "string"
+      "default": "temp/adapt_framework"
+    },
+    "buildDir": {
+      "type": "string",
+      "description": "Path to the folder where framework builds will be generated",
+      "default": "temp/builds"
     }
-  },
-  "required": ["frameworkDir"]
+  }
 }
