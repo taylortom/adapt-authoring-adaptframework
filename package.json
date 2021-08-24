@@ -11,7 +11,7 @@
     "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   },
   "dependencies": {
-    "adapt_framework": "adaptlearning/adapt_framework#v5.16.0",
+    "adapt_framework": "adaptlearning/adapt_framework#semver:>=5.16",
     "adapt-authoring-content": "adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "adapt-security/adapt-authoring-contentplugin",
     "adapt-authoring-courseassets": "adapt-security/adapt-authoring-courseassets",
