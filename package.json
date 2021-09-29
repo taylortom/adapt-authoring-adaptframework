@@ -4,12 +4,8 @@
   "description": "Adapt framework integration for the Adapt authoring tool",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-adaptFramework",
   "license": "GPL-3.0",
-  "repository": "adaptlearning/adapt-authoring-adaptFramework",
   "main": "index.js",
-  "peerDependencies": {
-    "adapt-authoring-authored": "adapt-security/adapt-authoring-authored",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
-  },
+  "repository": "adaptlearning/adapt-authoring-adaptFramework",
   "dependencies": {
     "adapt-authoring-content": "adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "adapt-security/adapt-authoring-contentplugin",
@@ -23,5 +19,9 @@
     "lodash": "^4.17.21",
     "semver": "^7.3.2",
     "zipper": "taylortom/zipper"
+  },
+  "peerDependencies": {
+    "adapt-authoring-authored": "adapt-security/adapt-authoring-authored",
+    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   }
 }
