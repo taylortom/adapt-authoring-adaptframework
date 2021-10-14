@@ -20,7 +20,12 @@
       "type": "string",
       "format": "date-time",
       "isDate": true
+    },
+    "createdBy": {
+      "description": "User which initiated the build",
+      "type": "string",
+      "isObjectId": true
     }
   },
-  "required": ["courseId", "location", "expiresAt"]
+  "required": ["action", "courseId", "location", "expiresAt", "createdBy"]
 }
