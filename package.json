@@ -12,7 +12,6 @@
     "adapt-authoring-courseassets": "adapt-security/adapt-authoring-courseassets",
     "adapt-authoring-coursetheme": "adapt-security/adapt-authoring-coursetheme",
     "adapt-authoring-spoortracking": "adapt-security/adapt-authoring-spoortracking",
-    "adapt_framework": "adaptlearning/adapt_framework#semver:>=5.16",
     "axios": "^0.21.4",
     "date-fns": "^2.25.0",
     "fs-extra": "9.0.1",

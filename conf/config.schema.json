@@ -12,6 +12,11 @@
       "description": "Path to the adapt_framework source folder",
       "default": "temp/adapt_framework"
     },
+    "frameworkRepo": {
+      "type": "string",
+      "description": "URL of the Adapt framework repo to install",
+      "default": "https://github.com/adaptlearning/adapt_framework.git"
+    },
     "buildDir": {
       "type": "string",
       "description": "Path to the folder where framework builds will be generated",
