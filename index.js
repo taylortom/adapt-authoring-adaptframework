@@ -1,1 +1,1 @@
-module.exports = require('./lib/AdaptFrameworkModule');
+export { default }  from './lib/AdaptFrameworkModule';

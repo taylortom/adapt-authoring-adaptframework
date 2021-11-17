@@ -4,6 +4,7 @@
   "description": "Adapt framework integration for the Adapt authoring tool",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-adaptframework",
   "license": "GPL-3.0",
+  "type": "module",
   "main": "index.js",
   "repository": "adaptlearning/adapt-authoring-adaptframework",
   "dependencies": {
