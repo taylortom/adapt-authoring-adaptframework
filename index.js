@@ -1,1 +1,1 @@
-export { default }  from './lib/AdaptFrameworkModule';
+export { default }  from './lib/AdaptFrameworkModule.js';
