@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "main": "index.js",
-  "repository": "adaptlearning/adapt-authoring-adaptframework",
+  "repository": "github:adapt-security/adapt-authoring-adaptframework",
   "dependencies": {
     "adapt-authoring-content": "github:adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "github:adapt-security/adapt-authoring-contentplugin",
@@ -21,7 +21,7 @@
     "zipper": "taylortom/zipper"
   },
   "peerDependencies": {
-    "adapt-authoring-authored": "adapt-security/adapt-authoring-authored",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
+    "adapt-authoring-authored": "github:adapt-security/adapt-authoring-authored",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
   }
 }
