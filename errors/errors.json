@@ -1,0 +1,52 @@
+{
+  "BUILD_DATA_RETRIEVAL_FAILED": {
+    "data": {
+      "error": "The error message"
+    },
+    "description": "Failed to retrieve build data from the database",
+    "statusCode": 500
+  },
+  "BUILD_NOT_FOUND": {
+    "description": "Framework build data cannot be found",
+    "statusCode": 404
+  },
+  "COURSE_NOT_FOUND": {
+    "description": "Requested course could not be found",
+    "statusCode": 404
+  },
+  "FW_BUILD_NOT_FOUND": {
+    "data": {
+      "_id": "Database document _id value for the missing course build"
+    },
+    "description": "Framework build could not be found in the database",
+    "statusCode": 404
+  },
+  "FW_INCOMPAT": {
+    "data": {
+      "import": "Framework version used in import course",
+      "installed": "Framework version currently installed on the server"
+    },
+    "description": "Course for import uses a framework version incompatible with that installed",
+    "statusCode": 400
+  },
+  "FW_INSTALL_FAILED": {
+    "description": "Installation of the framework failed",
+    "statusCode": 500
+  },
+  "IMPORT_INVALID": {
+    "description": "An invalid import zip has been provided",
+    "statusCode": 400
+  },
+  "IMPORT_PLUGINS_FAILED": {
+    "description": "Import of framework plugins failed",
+    "statusCode": 500
+  },
+  "INVALID_COURSE": {
+    "description": "An invalid course has been provided",
+    "statusCode": 400
+  },
+  "MISSING_PLUGINS": {
+    "description": "Course for import uses plugins which are missing from the server",
+    "statusCode": 400
+  }
+}
