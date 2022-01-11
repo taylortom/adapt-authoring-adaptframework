@@ -25,6 +25,10 @@
       "description": "User which initiated the build",
       "type": "string",
       "isObjectId": true
+    },
+    "versions": {
+      "description": "Versions of framework and plugins used in the build",
+      "type": "object"
     }
   },
   "required": ["action", "courseId", "location", "expiresAt", "createdBy"]
