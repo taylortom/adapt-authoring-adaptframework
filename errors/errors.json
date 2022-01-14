@@ -33,6 +33,13 @@
     "description": "Installation of the framework failed",
     "statusCode": 500
   },
+  "IMPORT_CONTENT_FAILED": {
+    "description": "Import of framework content failed",
+    "statusCode": 400,
+    "data": {
+      "errors": "Accompanying errors"
+    }
+  },
   "IMPORT_INVALID": {
     "description": "An invalid import zip has been provided",
     "statusCode": 400
