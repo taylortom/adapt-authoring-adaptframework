@@ -15,7 +15,7 @@
     "frameworkRepository": {
       "type": "string",
       "description": "URL of the Adapt framework git repository to install",
-      "default": "https://github.com/adaptlearning/adapt_framework.git"
+      "default": "https://github.com/adaptlearning/adapt_framework"
     },
     "buildDir": {
       "type": "string",
