@@ -10,6 +10,14 @@
     "description": "Framework build data cannot be found",
     "statusCode": 404
   },
+  "CLI_BUILD_FAILED": {
+    "data": {
+      "cmd": "The command that caused the error",
+      "message": "A detailed error message passed from adapt-cli"
+    },
+    "description": "Framework build using the adapt-cli failed",
+    "statusCode": 500
+  },
   "COURSE_NOT_FOUND": {
     "description": "Requested course could not be found",
     "statusCode": 404
