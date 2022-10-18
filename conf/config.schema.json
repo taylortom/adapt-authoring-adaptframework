@@ -10,7 +10,7 @@
     "frameworkDir": {
       "type": "string",
       "description": "Path to the adapt_framework source folder",
-      "default": "temp/adapt_framework"
+      "default": "$TEMP/adapt_framework"
     },
     "frameworkRepository": {
       "type": "string",
@@ -19,7 +19,7 @@
     "buildDir": {
       "type": "string",
       "description": "Path to the folder where framework builds will be generated",
-      "default": "temp/builds"
+      "default": "$TEMP/builds"
     }
   }
 }
