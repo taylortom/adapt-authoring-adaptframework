@@ -21,7 +21,7 @@
       "type": "string",
       "description": "Path to the folder where framework builds will be generated",
       "isDirectory": true,
-      "default": "$TEMP/builds"
+      "default": "$TEMP/framework-builds"
     }
   }
 }
