@@ -8,6 +8,7 @@
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-adaptframework",
   "dependencies": {
+    "adapt-authoring-browserslist": "github:adapt-security/adapt-authoring-browserslist",
     "adapt-authoring-content": "github:adapt-security/adapt-authoring-content",
     "adapt-authoring-contentplugin": "github:adapt-security/adapt-authoring-contentplugin",
     "adapt-authoring-courseassets": "github:adapt-security/adapt-authoring-courseassets",
