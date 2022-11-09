@@ -22,6 +22,10 @@
     "frameworkRepository": {
       "description": "URL of the Adapt framework git repository to install",
       "type": "string"
+    },
+    "xssWhitelist": {
+      "description": "Attributes which should be whitelisted when run through the XSS sanitiser",
+      "type": "object"
     }
   }
 }
