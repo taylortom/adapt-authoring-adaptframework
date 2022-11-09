@@ -2,6 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
+    "buildDir": {
+      "description": "Path to the folder where framework builds will be generated",
+      "type": "string",
+      "isDirectory": true,
+      "default": "$TEMP/framework-builds"
+    },
     "buildLifespan": {
       "description": "How long a build should remain valid for. Expects an amount followed by a space and then the unit (e.g. 5 hours)",
       "type": "string",
@@ -16,12 +22,6 @@
     "frameworkRepository": {
       "description": "URL of the Adapt framework git repository to install",
       "type": "string"
-    },
-    "buildDir": {
-      "description": "Path to the folder where framework builds will be generated",
-      "type": "string",
-      "isDirectory": true,
-      "default": "$TEMP/framework-builds"
     }
   }
 }
