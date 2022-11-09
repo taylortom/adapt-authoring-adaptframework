@@ -8,18 +8,18 @@
       "default": "7 days"
     },
     "frameworkDir": {
-      "type": "string",
       "description": "Path to the adapt_framework source folder",
+      "type": "string",
       "isDirectory": true,
       "default": "$TEMP/adapt_framework"
     },
     "frameworkRepository": {
-      "type": "string",
-      "description": "URL of the Adapt framework git repository to install"
+      "description": "URL of the Adapt framework git repository to install",
+      "type": "string"
     },
     "buildDir": {
-      "type": "string",
       "description": "Path to the folder where framework builds will be generated",
+      "type": "string",
       "isDirectory": true,
       "default": "$TEMP/framework-builds"
     }
