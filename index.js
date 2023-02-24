@@ -1,5 +1,5 @@
 /** 
  * Adapt framework integration
- * @module adaptframework 
+ * @namespace adaptframework 
  */
 export { default }  from './lib/AdaptFrameworkModule.js';
