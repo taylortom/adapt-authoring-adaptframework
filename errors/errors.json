@@ -1,45 +1,52 @@
 {
   "BUILD_DATA_RETRIEVAL_FAILED": {
+    "description": "Failed to retrieve build data from the database",
+    "statusCode": 500,
     "data": {
       "error": "The error message"
-    },
-    "description": "Failed to retrieve build data from the database",
-    "statusCode": 500
+    }
   },
   "BUILD_NOT_FOUND": {
     "description": "Framework build data cannot be found",
     "statusCode": 404
   },
   "CLI_BUILD_FAILED": {
+    "description": "Framework build using the adapt-cli failed",
+    "statusCode": 500,
     "data": {
       "cmd": "The command that caused the error",
       "message": "A detailed error message passed from adapt-cli"
-    },
-    "description": "Framework build using the adapt-cli failed",
-    "statusCode": 500
+    }
   },
   "COURSE_NOT_FOUND": {
     "description": "Requested course could not be found",
     "statusCode": 404
   },
   "FW_BUILD_NOT_FOUND": {
+    "description": "Framework build could not be found in the database",
+    "statusCode": 404,
     "data": {
       "_id": "Database document _id value for the missing course build"
-    },
-    "description": "Framework build could not be found in the database",
-    "statusCode": 404
+    }
   },
   "FW_INCOMPAT": {
+    "description": "Course for import uses a framework version incompatible with that installed",
+    "statusCode": 400,
     "data": {
       "import": "Framework version used in import course",
       "installed": "Framework version currently installed on the server"
-    },
-    "description": "Course for import uses a framework version incompatible with that installed",
-    "statusCode": 400
+    }
   },
   "FW_INSTALL_FAILED": {
     "description": "Installation of the framework failed",
     "statusCode": 500
+  },
+  "IMPORT_FAILED": {
+    "description": "Import of framework course failed",
+    "statusCode": 400,
+    "data": {
+      "error": "The error"
+    }
   },
   "IMPORT_CONTENT_FAILED": {
     "description": "Import of framework content failed",
