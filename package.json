@@ -24,5 +24,9 @@
   "peerDependencies": {
     "adapt-authoring-authored": "github:adapt-security/adapt-authoring-authored",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "standard": "^17.0.0"
   }
 }
