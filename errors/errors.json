@@ -1,74 +1,74 @@
 {
-  "BUILD_DATA_RETRIEVAL_FAILED": {
-    "description": "Failed to retrieve build data from the database",
-    "statusCode": 500,
+  "FW_BUILD_NOT_FOUND": {
     "data": {
-      "error": "The error message"
-    }
-  },
-  "BUILD_NOT_FOUND": {
-    "description": "Framework build data cannot be found",
+      "_id": "Database document _id value for the missing course build"
+    },
+    "description": "Framework build could not be found in the database",
     "statusCode": 404
   },
-  "CLI_BUILD_FAILED": {
-    "description": "Framework build using the adapt-cli failed",
-    "statusCode": 500,
+  "FW_CLI_BUILD_FAILED": {
     "data": {
       "cmd": "The command that caused the error",
       "message": "A detailed error message passed from adapt-cli"
-    }
+    },
+    "description": "Framework build using the adapt-cli failed",
+    "statusCode": 500
   },
-  "COURSE_NOT_FOUND": {
-    "description": "Requested course could not be found",
-    "statusCode": 404
-  },
-  "FW_BUILD_NOT_FOUND": {
-    "description": "Framework build could not be found in the database",
-    "statusCode": 404,
+  "FW_IMPORT_CONTENT_FAILED": {
     "data": {
-      "_id": "Database document _id value for the missing course build"
-    }
+      "errors": "Accompanying errors"
+    },
+    "description": "Import of framework content failed",
+    "statusCode": 400
   },
-  "FW_INCOMPAT": {
-    "description": "Course for import uses a framework version incompatible with that installed",
-    "statusCode": 400,
+  "FW_IMPORT_FAILED": {
+    "data": {
+      "error": "The error"
+    },
+    "description": "Import of framework course failed",
+    "statusCode": 400
+  },
+  "FW_IMPORT_INCOMPAT": {
     "data": {
       "import": "Framework version used in import course",
       "installed": "Framework version currently installed on the server"
-    }
+    },
+    "description": "Course for import uses a framework version incompatible with that installed",
+    "statusCode": 400
+  },
+  "FW_IMPORT_INVALID": {
+    "description": "An invalid import zip has been provided",
+    "statusCode": 400
+  },
+  "FW_IMPORT_INVALID_COURSE": {
+    "description": "An invalid course has been provided",
+    "statusCode": 400
+  },
+  "FW_IMPORT_MISSING_PLUGINS": {
+    "description": "Course for import uses plugins which are missing from the server",
+    "statusCode": 400
+  },
+  "FW_IMPORT_PLUGINS_FAILED": {
+    "description": "Import of framework plugins failed",
+    "statusCode": 500
+  },
+  "FW_INCOMPAT_PLUGIN_DEP": {
+    "data": {
+      "name": "Incompatible plugin name",
+      "version": "Incompatible plugin version"
+    },
+    "description": "Plugin is incompatible",
+    "statusCode": 500
   },
   "FW_INSTALL_FAILED": {
     "description": "Installation of the framework failed",
     "statusCode": 500
   },
-  "IMPORT_FAILED": {
-    "description": "Import of framework course failed",
-    "statusCode": 400,
+  "FW_MISSING_PLUGIN_DEP": {
     "data": {
-      "error": "The error"
-    }
-  },
-  "IMPORT_CONTENT_FAILED": {
-    "description": "Import of framework content failed",
-    "statusCode": 400,
-    "data": {
-      "errors": "Accompanying errors"
-    }
-  },
-  "IMPORT_INVALID": {
-    "description": "An invalid import zip has been provided",
-    "statusCode": 400
-  },
-  "IMPORT_PLUGINS_FAILED": {
-    "description": "Import of framework plugins failed",
+      "name": "Missing plugin name"
+    },
+    "description": "Plugin is missing a dependency",
     "statusCode": 500
-  },
-  "INVALID_COURSE": {
-    "description": "An invalid course has been provided",
-    "statusCode": 400
-  },
-  "MISSING_PLUGINS": {
-    "description": "Course for import uses plugins which are missing from the server",
-    "statusCode": 400
   }
 }
