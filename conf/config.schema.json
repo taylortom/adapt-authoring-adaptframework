@@ -14,6 +14,14 @@
       "isTimeMs": true,
       "default": "7d"
     },
+    "enableUpdateApi": {
+      "description": "Whether the Adapt framework can be updated via the REST API",
+      "type": "boolean",
+      "default": true,
+      "_adapt": {
+        "isPublic": true
+      }
+    },
     "frameworkDir": {
       "description": "Path to the adapt_framework source folder",
       "type": "string",
