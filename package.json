@@ -17,6 +17,7 @@
     "adapt-cli": "github:adaptlearning/adapt-cli#v3.1.1",
     "adapt-octopus": "github:cgkineo/adapt-octopus",
     "fs-extra": "9.0.1",
+    "glob": "^10.3.10",
     "lodash": "^4.17.21",
     "semver": "^7.3.2",
     "zipper": "adapt-security/zipper"
