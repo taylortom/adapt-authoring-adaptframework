@@ -19,7 +19,7 @@
     "fs-extra": "9.0.1",
     "glob": "^10.3.10",
     "lodash": "^4.17.21",
-    "semver": "^7.3.2",
+    "semver": "^7.5.2",
     "zipper": "adapt-security/zipper"
   },
   "peerDependencies": {
