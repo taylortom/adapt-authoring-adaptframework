@@ -52,6 +52,10 @@
     "description": "Import of framework plugins failed",
     "statusCode": 500
   },
+  "FW_IMPORT_UNEXPECTED_STRUCTURE": {
+    "description": "Installation of the framework failed",
+    "statusCode": 500
+  },
   "FW_INCOMPAT_PLUGIN_DEP": {
     "data": {
       "name": "Incompatible plugin name",
