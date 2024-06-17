@@ -20,6 +20,7 @@
     "glob": "^10.3.10",
     "lodash": "^4.17.21",
     "semver": "^7.6.0",
+    "upath": "^2.0.1",
     "zipper": "github:adapt-security/zipper"
   },
   "devDependencies": {
